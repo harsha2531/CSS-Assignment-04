@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Water Drop Animaton</title>
+    <style>
+        body>div{
+            height: 1px;
+            aspect-ratio: 1/1;
+            border: 5px solid red;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom:0;
+            position: absolute;
+            border-radius: 100%;
+            animation: my-animation 2s infinite;
+        }
+        @keyframes my-animation {
+            from{
+                height: 1px;
+                aspect-ratio: 1/1;
+            }
+            to{
+                height: 300px;
+                aspect-ratio: 1/1;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
